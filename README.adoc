@@ -1,2 +1,9 @@
 = CentOS 7 docker image with up-to-date Open-SC
 
+    docker-compose build
+    docker-compose run --rm opensc bash
+
+    /usr/sbin/pcscd
+    opensc-tool -i
+
+sc-hsm-tool is not available.

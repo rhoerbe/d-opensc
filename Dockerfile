@@ -1,7 +1,7 @@
 FROM centos:7
 
 RUN yum -y update \
- && yum -y install curl sudo sysvinit-tools \
+ && yum -y install sudo sysvinit-tools wget \
                    autoconf automake gcc gcc-c++ git libtool redhat-lsb-core \
                    pcsc-lite pcsc-lite-devel engine_pkcs11 softhsm unzip usbutils
 

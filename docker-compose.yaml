@@ -1,0 +1,13 @@
+version: "3.5"
+services:
+  opensc:
+    build:
+      context: .
+    image: opensc_centos
+    hostname: opensc_centos
+    container_name: opensc_centos
+    privileged: true
+    devices:
+      - "/dev/bus/usb"
+    userns_mode: 'host'
+
