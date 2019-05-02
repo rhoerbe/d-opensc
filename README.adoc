@@ -1,0 +1,2 @@
+= CentOS 7 docker image with up-to-date Open-SC
+
